@@ -16,7 +16,7 @@ This repo contain **Multiplayer TicToeToe** game code in **C** with some Graphic
  
  **main.c** contain main game code <br><br>
  
-**use following command for run this code in terminal**  <br>
+**USE following command for run this code in terminal**  <br>
 *gcc main.c* <br>
 *./a.out*  (in Linux Terminal) <br>
 *./a.exe*  (For Microsoft Windows Terminal or cmd) <br>
