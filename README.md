@@ -21,6 +21,6 @@ This repo contain **Multiplayer TicToeToe** game code in **C** with some Graphic
 *./a.out*  (in Linux Terminal) <br>
 *./a.exe*  (For Microsoft Windows Terminal or cmd) <br>
 
-**NOTE** You can run this code on Linux, Microsoft Windows and MacOS. <br>
+**NOTE:** You can run this code on Linux, Microsoft Windows and MacOS. <br>
 
 **_ThankYou_**
