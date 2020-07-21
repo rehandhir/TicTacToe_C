@@ -7,7 +7,7 @@ This repo contain **Multiplayer TicToeToe** game code in **C** with some Graphic
  * header.h
  * functions.c
  * main.c
- <br>
+ 
  **ANSI.h** contains ANSI (American National Standards Institute) code for colours and text-style<br><br>
  
  **header.h** contains all header files<br><br>
