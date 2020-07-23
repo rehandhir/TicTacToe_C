@@ -50,17 +50,17 @@ void design()
 {
     printf("\n");
     puts(B RBBLU RYLO "\t\t\t|---|---|---|");
-    printf("\t\t\t| " BLK "%c" RES B RBBLU RYLO " | " BLK "%c" RES B RBBLU RYLO " | " BLK "%c" RES B RBBLU RYLO " |\n", a[0], a[1], a[2]);
+    printf("\t\t\t| " YLO "%c" RES B RBBLU RYLO " | " YLO "%c" RES B RBBLU RYLO " | " YLO "%c" RES B RBBLU RYLO " |\n", a[0], a[1], a[2]);
     puts("\t\t\t|---|---|---|");
-    printf("\t\t\t| " BLK "%c" RES B RBBLU RYLO " | " BLK "%c" RES B RBBLU RYLO " | " BLK "%c" RES B RBBLU RYLO " |\n", a[3], a[4], a[5]);
+    printf("\t\t\t| " YLO "%c" RES B RBBLU RYLO " | " YLO "%c" RES B RBBLU RYLO " | " YLO "%c" RES B RBBLU RYLO " |\n", a[3], a[4], a[5]);
     puts("\t\t\t|---|---|---|");
-    printf("\t\t\t| " BLK "%c" RES B RBBLU RYLO " | " BLK "%c" RES B RBBLU RYLO " | " BLK "%c" RES B RBBLU RYLO " |\n", a[6], a[7], a[8]);
+    printf("\t\t\t| "YLO "%c" RES B RBBLU RYLO " | " YLO "%c" RES B RBBLU RYLO " | " YLO "%c" RES B RBBLU RYLO " |\n", a[6], a[7], a[8]);
     puts("\t\t\t|---|---|---|" RES);
 }
 void input_pos()
 {
     char ch;
-    int i, flag1;
+    int pos,i, flag1;
     printf(B);
     if (i_pos == 0)
     {
@@ -68,10 +68,10 @@ void input_pos()
         {
             if (flag1 == 1)
                 printf(RRED "\n\tWrong Input!");
-            printf(RBLU "\n\t%s enter your position: ", p1);
-            while (getchar() != '\n')
-                ;
-            scanf("%c", &ch); //take position input from player 1
+
+            printf(RBLU "\n\t%s Enter your position: ", p1); //take position input from player 1  
+            scanf("%d",&pos);
+            ch = 48+(char)pos;
             if (ch == '0' || ch == 'x')
                 flag1 = 1;
             else
@@ -96,10 +96,9 @@ void input_pos()
         {
             if (flag1 == 1)
                 printf(RRED "\n\tWrong Input!");
-            printf(RMAG "\n\t%s enter your position: ", p2);
-            while (getchar() != '\n')
-                ;
-            scanf("%c", &ch); //take position input from player 2
+            printf(RMAG "\n\t%s Enter your position: ", p2); //take position input from player 2
+            scanf("%d",&pos);
+            ch = 48+(char)pos;
             if (ch == '0' || ch == 'x')
                 flag1 = 1;
             else
