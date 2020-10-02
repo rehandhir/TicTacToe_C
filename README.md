@@ -1,5 +1,5 @@
 # TIC TAC TOE 
-This repo contain **Multiplayer TicToeToe** game code in **C** with some Graphics<br>
+This repository contains **Multiplayer TicToeToe** game coded in **C Program** with some Graphics<br>
 
  ### In this repo there are 4 files related to game
  * ANSI.h
